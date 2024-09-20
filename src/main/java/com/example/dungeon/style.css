@@ -1,0 +1,55 @@
+
+/* Reference: https://www.youtube.com/watch?v=0FVXRp0vmVg */
+
+.normal
+{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#833e7f 0%,#5a2661 100%),
+             #d29bf1,
+             #f8b6ea,
+            radial-gradient(center 50% 50%, radius 100%,#d2a0df,#edbef3);
+}
+
+.levelButton
+{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#0c4925 0%,#114431 100%),
+             #3a9c42,
+             #45945d,
+            radial-gradient(center 50% 50%, radius 100%,#77c984,#79cc8b);
+}
+
+.lostButton
+{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#262729 0%,#232427 100%),
+             #36393a,
+             #3a3c3d,
+            radial-gradient(center 50% 50%, radius 100%,#494c4e,#424446);
+}
+#button
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-text-fill: white;
+}
+
+#button:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#132da3 0%,#123490 100),
+            #4b70c0,
+            #288bdb,
+            radial-gradient(center 50% 50%,radius 100%,#7fc3f1,#6cbdd1);
+}
+
+#button:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
