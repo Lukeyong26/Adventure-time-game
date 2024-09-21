@@ -13,10 +13,10 @@
 .levelButton
 {
     -fx-background-color:
-            linear-gradient(from 0% 93% to 0% 100%,#0c4925 0%,#114431 100%),
-             #3a9c42,
-             #45945d,
-            radial-gradient(center 50% 50%, radius 100%,#77c984,#79cc8b);
+            linear-gradient(from 0% 93% to 0% 100%,#0c1a49 0%,#0c1a49 100%),
+             #313aaa,
+             #313aaa,
+            radial-gradient(center 50% 50%, radius 100%,#3d7ebb,#3d7ebb);
 }
 
 .lostButton
@@ -27,6 +27,16 @@
              #3a3c3d,
             radial-gradient(center 50% 50%, radius 100%,#494c4e,#424446);
 }
+
+.returnButton
+{
+    -fx-background-color:
+    linear-gradient(from 0% 93% to 0% 100%,#253a64 0%,#253a64 100%),
+     #2b4783,
+     #2b4783,
+    radial-gradient(center 50% 50%, radius 100%,#32678b,#32678b);
+}
+
 #button
 {
     -fx-padding: 8 15 15 15;

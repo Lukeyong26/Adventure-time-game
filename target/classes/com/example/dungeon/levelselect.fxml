@@ -10,9 +10,9 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <StackPane layoutX="76.0" layoutY="125.0" prefHeight="150.0" prefWidth="200.0" />
-      <ImageView fitHeight="441.0" fitWidth="652.0" layoutX="-6.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="400" fitWidth="-1" layoutX="-50" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images/level.png" />
+            <Image url="@images/level.jpg" />
          </image>
       </ImageView>
       <Button id="button" layoutX="82.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleStartButton" prefHeight="27.0" prefWidth="112.0" styleClass="levelButton" stylesheets="@style.css" text="1">

@@ -19,6 +19,6 @@
                 <children>
                 </children>
           </GridPane>
-          <Button layoutX="0.0" layoutY="0.0" mnemonicParsing="false" onAction="#handleMenuButton" text="Return to Menu" />
+          <Button id="button" layoutX="0.0" layoutY="0.0" mnemonicParsing="false" onAction="#handleMenuButton" prefHeight="10.0" prefWidth="10.0" styleClass="returnButton" stylesheets="@style.css" text="X" />
    </children>
 </Pane>
